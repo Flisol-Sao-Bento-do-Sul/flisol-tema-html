@@ -2,6 +2,7 @@
   --primary-font: "Poppins", sans-serif;
   --primary-color: #ff8f2a;
   --secondary-color: #0093b3;
+  --primary-dark: #2e2e2e;
 }
 
 html {
@@ -48,7 +49,7 @@ span {
   background-color: var(--primary-color);
   border: solid 2px #ff8f2a;
   border-radius: 0;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding: 1.2rem 1.6rem;
 }
 
@@ -88,6 +89,15 @@ span {
   to {
     visibility: hidden;
   }
+}
+
+.saiba-mais {
+  justify-content: center;
+}
+
+.saiba-mais a {
+  max-width: 400px;
+  font-size: 2rem;
 }
 
 /* header */
@@ -400,4 +410,80 @@ span {
 
 #home__data .row {
   align-items: center;
+}
+
+/** Sobre **/
+
+/** Footer **/
+
+#footer-principal {
+  padding: 6rem 0 4rem 0;
+  background-color: var(--primary-dark);
+}
+
+#footer-principal hr {
+  color: #fff;
+}
+
+.footer__menu-titulo {
+  color: #fff;
+  font-weight: 500;
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.footer__menu nav a {
+  color: #fff;
+  font-size: 1.6rem;
+  position: relative;
+}
+
+.footer__menu nav:not(.redes) a::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  width: 0px;
+  height: 2px;
+  background-color: var(--primary-color);
+  left: 1rem;
+}
+
+.footer__menu nav:not(.redes) a:hover {
+  color: var(--primary-color);
+}
+.footer__menu nav:not(.redes) a:hover::after {
+  width: 32%;
+  transition: all ease-in-out 0.2s;
+}
+
+.footer__menu .redes a img {
+  height: 4rem;
+  width: auto;
+  cursor: pointer;
+  margin: 2rem;
+}
+
+.footer__menu .redes a:hover img {
+  height: 4.2rem;
+  transition: all 0.2s;
+}
+
+.footer-copy {
+  justify-content: space-between;
+  padding-top: 1.4rem;
+}
+
+.footer-copy h3 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-copy a {
+  color: #fff;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+.footer-copy a:hover {
+  color: var(--primary-color);
 }
