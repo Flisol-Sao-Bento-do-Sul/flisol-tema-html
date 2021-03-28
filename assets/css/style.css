@@ -124,6 +124,14 @@ span {
   background-color: var(--primary-color);
 }
 
+.header.cabecalho__fundo--branco {
+  background-color: #fff;
+}
+
+.page .header.cabecalho__fundo--branco {
+  padding: 2rem 0;
+}
+
 /* menu */
 
 .header .menu {
@@ -168,6 +176,48 @@ span {
 
 .header .menu-icon .navicon:after {
   top: -10px;
+}
+
+.header.cabecalho__fundo--branco a {
+  color: #000;
+}
+
+.breadcrumb {
+  padding: 2rem 0;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 22rem;
+  margin-top: 2rem;
+}
+
+.breadcrumb h1 {
+  padding: 6rem 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3.2rem;
+  padding-bottom: 1.4rem;
+}
+
+.breadcrumb-item {
+  padding: 0 2rem;
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+.header.cabecalho__fundo--branco .breadcrumb-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header.cabecalho__fundo--branco .breadcrumb-item a:hover {
+  color: var(--primary-color);
+}
+
+.header.cabecalho__fundo--branco .breadcrumb-item span {
+  color: var(--primary-color);
+  opacity: 0.8;
 }
 
 /* menu btn */
@@ -256,10 +306,22 @@ span {
   font-weight: bold;
 }
 
+.page .section-padrao h2.titulo {
+  padding-bottom: 1.4rem;
+}
+
+.page .section-padrao h3.subtitulo {
+  text-align: center;
+}
+
 .section-padrao p {
   font-size: 1.8rem;
   text-align: justify;
   text-indent: 1.4rem;
+}
+
+.page .section-padrao p {
+  padding: 2rem 4rem;
 }
 
 /**
