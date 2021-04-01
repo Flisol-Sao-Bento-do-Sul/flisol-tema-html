@@ -476,6 +476,25 @@ span {
 
 /** Sobre **/
 
+/*** Team **/
+
+.time__card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 30rem;
+}
+
+.time__card .time__card-img{
+  width: 20rem;
+}
+.time__card img{
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
 /** Footer **/
 
 #footer-principal {
