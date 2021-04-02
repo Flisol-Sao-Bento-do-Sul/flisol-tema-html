@@ -278,7 +278,7 @@ span {
 }
 
 .cabecalho__main {
-  padding: 14rem;
+  padding: 7rem;
   text-align: center;
 }
 
@@ -495,18 +495,19 @@ span {
   transition: all 0.5s ease 0s;
 }
 .our-team .team-content {
-  padding: 20px 0;
+  padding: 2rem 0;
 }
 .our-team .title {
-  font-size: 22px;
+  font-size: 2rem;
   font-weight: 700;
-  color: #8f2d56;
+  color: var(--primary-color);
+  font-weight: bold;
   text-transform: uppercase;
   margin: 0 0 5px 0;
 }
 .our-team .post {
   display: block;
-  font-size: 17px;
+  font-size: 1.8rem;
   color: #878484;
   text-transform: capitalize;
   margin-bottom: 10px;
@@ -518,24 +519,32 @@ span {
 }
 .our-team .social li {
   display: inline-block;
+  margin-right: 1.2rem;
 }
 .our-team .social li a {
   display: block;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
+  width: 3.6rem;
+  height: 3.6rem;
+  line-height: 3.6rem;
   border-radius: 50%;
   border: 1px solid var(--primary-color);
   background: #fff;
-  font-size: 17px;
+  font-size: 1.6rem;
   color: var(--primary-color);
   text-align: center;
   transition: all 0.5s ease 0s;
+  text-decoration: none;
 }
 .our-team:hover .social li a {
   background: var(--primary-color);
   color: #fff;
 }
+
+.our-team:hover .social li a:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
 @media only screen and (max-width: 990px) {
   .our-team {
     margin-bottom: 30px;
