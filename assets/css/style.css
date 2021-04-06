@@ -604,6 +604,13 @@ span {
   align-items: center;
   align-self: flex-end;
 }
+
+/** Single **/
+
+.single article {
+  background-color: #eee;
+}
+
 /** Footer **/
 
 #footer-principal {
