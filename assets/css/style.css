@@ -550,6 +550,60 @@ span {
     margin-bottom: 30px;
   }
 }
+
+/** Programacao **/
+
+.programacao__fisol-item .card {
+  position: relative;
+}
+
+.programacao__fisol-item .local {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: var(--primary-color);
+  padding: 0.6rem 2rem;
+  border-radius: 2rem;
+}
+
+.programacao__fisol-item h2 {
+  text-align: center;
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 2.2rem;
+  margin-top: 1.2rem;
+}
+
+.programacao__fisol-item .card-body .card-text {
+  padding: 1.2rem;
+}
+
+.programacao__fisol-item .card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.1rem;
+}
+
+.programacao__fisol-item .card-footer p {
+  margin: 0;
+  padding: 0.4rem 0;
+}
+
+.programacao__fisol-item .card-footer p span {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.programacao__fisol-item .card-footer .btn {
+  display: flex;
+  max-height: 4.2rem;
+  padding: 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+}
 /** Footer **/
 
 #footer-principal {
