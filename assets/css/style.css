@@ -770,6 +770,38 @@ span {
   letter-spacing: 1.2px;
 }
 
+/** palestrantes__fisol-item **/
+
+.programacao__fisol-item.palestrantes__fisol-item h2 {
+  font-weight: initial;
+}
+
+.programacao__fisol-item.palestrantes__fisol-item h3 {
+  color: var(--secondary-color);
+  text-align: center;
+  width: 100%;
+}
+
+/** Para SEO **/
+.programacao__fisol-item.palestrantes__fisol-item .text-escondido {
+  position: absolute;
+  text-indent: -999999px;
+}
+
+.programacao__fisol-item.palestrantes__fisol-item i {
+  font-size: 2.2rem;
+  color: var(--secondary-color);
+}
+
+.programacao__fisol-item.palestrantes__fisol-item a:hover i {
+  color: var(--primary-color);
+}
+
+.programacao__fisol-item.palestrantes__fisol-item .btn.btn-padrao {
+  width: 100%;
+  margin: 1rem 0;
+}
+
 /** 404 **/
 
 .error404 i {
